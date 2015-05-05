@@ -20,7 +20,8 @@ body{
 .banner{
 	font-size: 2em;
 	font-weight: 600;
-	font-family: arial;
+	font-family: mark-s;
+	letter-spacing: 2px;
 	background-color: red;
 	padding: 1em 0 0.5em 0;
 	margin-bottom: 1em;
@@ -73,6 +74,7 @@ button{
 .win{
 	padding-top: 1em;
 	font-size: 2em;
+	font-weight: bold;
 }
 .lose{
 	margin-bottom: 1em;
