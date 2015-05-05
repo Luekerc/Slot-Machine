@@ -18,7 +18,7 @@ body{
 	opacity: 0.9;
 }
 .banner{
-	font-size: 3em;
+	font-size: 2em;
 	font-weight: 600;
 	font-family: arial;
 	background-color: red;
@@ -27,21 +27,18 @@ body{
 	color: white;
 }
 .instructions{
+	margin-top: 3em;
 	font-size: 1.25em;
 	letter-spacing: 1px;
 	width: 95%;
 	margin: 0 auto;
 }
-.lets-play{
-	margin: 0 auto;
-	margin-top: 1em;
-	font-size: 2em;
-}
+
 #slot{
 	height: 10em;
 	margin: 0 auto;
 	margin-bottom: 1em;
-	margin-top: 2em;
+	/*margin-top: 2em;*/
 }
 #panels{
 	margin: 0 auto;
@@ -74,8 +71,11 @@ button{
 	outline: none;
 }
 .win{
-	padding-top: 2.5em;
+	padding-top: 1em;
 	font-size: 2em;
+}
+.lose{
+	margin-bottom: 1em;
 }
 
 /*footer{
