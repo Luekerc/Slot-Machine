@@ -80,12 +80,9 @@ button{
 	margin-bottom: 1em;
 }
 
-/*footer{
-	background-color: white;
-	margin: 0 auto;
-	border-right: 1px solid black;
-	border-left: 1px solid black;
-	opacity: 0.8;
-	height:5em;
-	width: 90%;
-}*/
+@media(min-width: 780px){
+#wrapper{
+	width: 40%;
+}
+
+} 
