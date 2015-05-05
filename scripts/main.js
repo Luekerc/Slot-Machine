@@ -13,9 +13,9 @@ function runSlots(){
 	$(".panel2").html(b);
 	$(".panel3").html(c);
 	if(a===b&&b===c){
-		$('.win').html("YOU WIN!");
+		$('.lets-play').html("YOU WIN!");
 	}else{
-		$('.win').html("TRY AGAIN");
+		$('.lets-play').html("TRY AGAIN");
 	}
 }
 
